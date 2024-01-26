@@ -8,7 +8,7 @@ gas_in_tank = 0
 index = 0
 
 while pumps_data_copy:
-    petrol, distance = pumps_data_copy.pop()
+    petrol, distance = pumps_data_copy.popleft()
 
     gas_in_tank += petrol
 
